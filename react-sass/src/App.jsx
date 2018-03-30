@@ -2,19 +2,35 @@ import React, { Component } from 'react';
 import Navbar from './Components/Navbar/Navbar.jsx';
 import ContentBox from './Components/ContentBox/ContentBox.jsx';
 import Footer from './Components/Footer/Footer.jsx';
-
+import PostId from './Components/Posts/Post.jsx';
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
 
-        <Navbar />
-        <ContentBox />
-        <ContentBox />
-        <Footer />
+      <Router>
+        <div className="App">
 
-      </div>
+        
+
+          {/* <Route path='/posts' component={PostId} /> */}
+          {/* <Link to={'/id'}><button>id</button></Link> */}
+          {/* <Link to={'/post'}><button>post</button></Link> */}
+        
+          <Navbar />
+
+          {/* create a component called Home to render here */}
+            <Route exact={true} path='/' render={() => (
+              <h1 className='h1-app'>Hello world!</h1>
+            )}/>
+            <Route path='/post' component={ContentBox} />
+            <Route path='/id' component={PostId} />
+            {/* <ContentBox /> */}
+          <Footer />
+        </div>
+      </Router>
+
     );
   }
 }

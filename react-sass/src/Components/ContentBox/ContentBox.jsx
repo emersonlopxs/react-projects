@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import PostId from '../Posts/Post.jsx';
 
 
 class ContentBox extends Component {
@@ -12,17 +14,16 @@ class ContentBox extends Component {
 
     return (
 
-      <div className="ContentBox">
-
-            <section className="Posts">
-              <p className="Title"><span>{post1.title}</span></p>
-              <p className="Content">{post1.content}</p>
-              <button> <a href="posts/posts.html">read more</a></button>
-              <p className="Date">{post1.date}</p>
-
-            </section>
-            
-      </div>
+      // <Router>
+        <div className="ContentBox">
+              <section className="Posts">
+                <p className="Title"><span>{post1.title}</span></p>
+                <p className="Content">{post1.content}</p>
+                <Link to={'/id'}><button>read more</button></Link>
+                <p className="Date">{post1.date}</p>
+              </section>
+        </div>
+      // </Router>
     );
   }
 }

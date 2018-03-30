@@ -15,6 +15,10 @@ body {
     justify-content: space-between;
     max-width: 900px;
     margin: auto; }
+  .MainNav .post {
+    color: red;
+    font-size: 1rem;
+    justify-content: flex-end; }
   .MainNav a {
     color: white;
     text-decoration: none;
@@ -81,3 +85,15 @@ footer {
   footer a {
     color: #fff;
     text-decoration: none; }
+
+.red-h1 {
+  font-size: 3rem;
+  color: red; }
+
+.h1-app {
+  color: red;
+  margin: auto;
+  width: 900px;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding-bottom: 600px; }

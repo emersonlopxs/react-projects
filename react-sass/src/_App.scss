@@ -1,3 +1,15 @@
 @import "Components/Navbar/Navbar";
 @import "Components/ContentBox/ContentBox";
 @import "Components/Footer/Footer";
+@import "Components/Posts/Post";
+
+
+
+.h1-app {
+  color: red;
+  margin: auto;
+  width: 900px;
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+  padding-bottom: 600px;
+}
