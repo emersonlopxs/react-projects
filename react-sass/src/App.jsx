@@ -12,14 +12,7 @@ class App extends Component {
       <Router>
         <div className="App">
 
-        
-
-          {/* <Route path='/posts' component={PostId} /> */}
-          {/* <Link to={'/id'}><button>id</button></Link> */}
-          {/* <Link to={'/post'}><button>post</button></Link> */}
-        
           <Navbar />
-
           {/* create a component called Home to render here */}
             <Route exact={true} path='/' render={() => (
               <h1 className='h1-app'>Hello world!</h1>

@@ -1,4 +1,47 @@
-.red-h1 {
-  font-size: 3rem;
-  color: red;
+.PostWapper {
+  max-width: $max-width;
+  border: 1.5px solid black;
+  margin: auto;
+  margin-bottom: 2rem;  
+  border-radius: 8px;
+  font-weight: 100;
+}
+
+.subtitle-post {
+  text-align: center;
+  background-color: rgb(199, 199, 199);
+  border-radius: 5px;
+  width: 900px;
+  margin-left: -25px;
+  border-radius: 5px;
+  font-weight: 100;
+}
+
+.Post-box {
+  font-size: 1rem;
+  max-width: 850px;
+  margin: auto;
+  // background-color: rgb(241, 241, 241);
+  h1 {
+    text-align: center;
+    background-color: $title-color;
+    color: white;
+    width: 900px;
+    margin-left: -25px;
+    border-radius: 5px;
+    font-weight: 100;
+  }
+
+  .image-sub-header {
+    width: 900px;
+
+    margin: 0 0 0 -25px;
+    height: 200px;
+  }
+
+  p {
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+
 }

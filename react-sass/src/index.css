@@ -86,12 +86,44 @@ footer {
     color: #fff;
     text-decoration: none; }
 
-.red-h1 {
-  font-size: 3rem;
-  color: red; }
+.PostWapper {
+  max-width: 900px;
+  border: 1.5px solid black;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  font-weight: 100; }
+
+.subtitle-post {
+  text-align: center;
+  background-color: #c7c7c7;
+  border-radius: 5px;
+  width: 900px;
+  margin-left: -25px;
+  border-radius: 5px;
+  font-weight: 100; }
+
+.Post-box {
+  font-size: 1rem;
+  max-width: 850px;
+  margin: auto; }
+  .Post-box h1 {
+    text-align: center;
+    background-color: #74d474;
+    color: white;
+    width: 900px;
+    margin-left: -25px;
+    border-radius: 5px;
+    font-weight: 100; }
+  .Post-box .image-sub-header {
+    width: 900px;
+    margin: 0 0 0 -25px;
+    height: 200px; }
+  .Post-box p {
+    font-size: 1.4rem;
+    text-align: justify; }
 
 .h1-app {
-  color: red;
   margin: auto;
   width: 900px;
   background-color: #f3f3f3;
