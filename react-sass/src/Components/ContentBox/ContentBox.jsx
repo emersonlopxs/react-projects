@@ -6,34 +6,45 @@ import PostId from '../Posts/Post.jsx';
 class ContentBox extends Component {
   render() {
 
-    const post1 = {
-      title: 'This is the title',
+    const post = {
+      title: 'the day I fell in love with coding',
       body: [
         {
-            heading: 'The first sub title',
-            p: 'welcome to  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, maxime corporis ea natus, adipisci maiores voluptatibus aut illum animi nesciunt aliquid non quo atque veniam nisi itaque. Necessitatibus fuga, nihil, atque ipsum optio vel reprehenderit eaque rem maiores exercitationem dolore, magnam et cupiditate quae totam sed earum obcaecati quia. Beatae possimus quia deserunt accusamus libero, veniam consequatur neque rem minus voluptates ratione quasi, saepe recusandae aliquam cum at, perferendis ipsum. Provident sint deserunt quos distinctio sequi alias, quo error, eaque quis mollitia nihil perferendis commodi voluptatibus nisi quod porro consectetur. Earum doloremque cum assumenda ipsa hic accusantium sed quisquam eaque, laudantium dolorum deserunt explicabo qui aspernatur provident adipisci tempore voluptatum dolores similique molestiae pariatur repudiandae et alias. Animi, facere! Nostrum praesentium sunt consectetur molestiae nulla itaque fugit? Ipsa porro doloribus corporis iure, sequi explicabo hic. Adipisci quae voluptates nam ipsam vitae repudiandae dolore velit dolores delectus officia exercitationem est animi ad nulla eos nemo expedita tenetur error, odio doloremque enim atque aspernatur molestias. Ut eos minus quisquam ea iste sint provident harum, temporibus doloribus, repellendus unde molestiae deserunt consequuntur soluta veritatis. Eaque minus laborum deleniti veniam eos deserunt ullam repellendus est quis dolore temporibus ut tempora qui, tempore fugit libero?the jungle where people to crazy stuff to keep all the things in place'
+            heading: '',
+            paragraph: [
+              ''
+    
+            ],
+            image: 'https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?utm_medium=medium&w=700&q=50&auto=format',
+            code: '',
+            gistId: ''
         },
         {
-            heading: 'second sub title',
-            p: 'welcome to the jungle where people to crazy stuff to keep all the things in place  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, maxime corporis ea natus, adipisci maiores voluptatibus aut illum animi nesciunt aliquid non quo atque veniam nisi itaque. Necessitatibus fuga, nihil, atque ipsum optio vel reprehenderit eaque rem maiores exercitationem dolore, magnam et cupiditate quae totam sed earum obcaecati quia. Beatae possimus quia deserunt accusamus libero, veniam consequatur neque rem minus voluptates ratione quasi, saepe recusandae aliquam cum at, perferendis ipsum. Provident sint deserunt quos distinctio sequi alias, quo error, eaque quis mollitia nihil perferendis commodi voluptatibus nisi quod porro consectetur. Earum doloremque cum assumenda ipsa hic accusantium sed quisquam eaque, laudantium dolorum deserunt explicabo qui aspernatur provident adipisci tempore voluptatum dolores similique molestiae pariatur repudiandae et alias. Animi, facere! Nostrum praesentium sunt consectetur molestiae nulla itaque fugit? Ipsa porro doloribus corporis iure, sequi explicabo hic. Adipisci quae voluptates nam ipsam vitae repudiandae dolore velit dolores delectus officia exercitationem est animi ad nulla eos nemo expedita tenetur error, odio doloremque enim atque aspernatur molestias. Ut eos minus quisquam ea iste sint provident harum, temporibus doloribus, repellendus unde molestiae deserunt consequuntur soluta veritatis. Eaque minus laborum deleniti veniam eos deserunt ullam repellendus est quis dolore temporibus ut tempora qui, tempore fugit libero?'
-        }
-      ],
-      date: '10 March 2018 by Emerson'
-    };
-
-    const post2 = {
-      title: 'This is the title',
-      body: [
-        {
-            heading: 'The first sub title',
-            p: 'welcome to  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, maxime corporis ea natus, adipisci maiores voluptatibus aut illum animi nesciunt aliquid non quo atque veniam nisi itaque. Necessitatibus fuga, nihil, atque ipsum optio vel reprehenderit eaque rem maiores exercitationem dolore, magnam et cupiditate quae totam sed earum obcaecati quia. Beatae possimus quia deserunt accusamus libero, veniam consequatur neque rem minus voluptates ratione quasi, saepe recusandae aliquam cum at, perferendis ipsum. Provident sint deserunt quos distinctio sequi alias, quo error, eaque quis mollitia nihil perferendis commodi voluptatibus nisi quod porro consectetur. Earum doloremque cum assumenda ipsa hic accusantium sed quisquam eaque, laudantium dolorum deserunt explicabo qui aspernatur provident adipisci tempore voluptatum dolores similique molestiae pariatur repudiandae et alias. Animi, facere! Nostrum praesentium sunt consectetur molestiae nulla itaque fugit? Ipsa porro doloribus corporis iure, sequi explicabo hic. Adipisci quae voluptates nam ipsam vitae repudiandae dolore velit dolores delectus officia exercitationem est animi ad nulla eos nemo expedita tenetur error, odio doloremque enim atque aspernatur molestias. Ut eos minus quisquam ea iste sint provident harum, temporibus doloribus, repellendus unde molestiae deserunt consequuntur soluta veritatis. Eaque minus laborum deleniti veniam eos deserunt ullam repellendus est quis dolore temporibus ut tempora qui, tempore fugit libero?the jungle where people to crazy stuff to keep all the things in place'
+            heading: '',
+            
+            image: '',
+            paragraph: [
+              'I always liked to code. After about for six months of learning I had built quite a few apps like a weather app (cause who hasn’t?), random quote machine, budget app, todo list app and many static webpages and others. Working on projects was always cool to me, being able to make something is one o the reasons I always liked coding.',
+              'One day though, while working on the intermediate front end projects on Free Code Camp, specifically the Wikipedia Viewer, something different happened. While working on it it was just as fun as the others, struggling to figure out how to the this and that, but eventually making it work. Nothing new here.',
+              'When the project was completed and I was checking if all the features were working correctly I felt something different, being able to type anything on that input and receive and answer related to the topic made me feel like I could do anything, so for the rest of the day I was thinking about how amazing I was able to create such an app. That was when I really realized I could build anything I wanted.',
+              'Being a coder doesn’t mean you know everything in a language/framework, but it’s about how you look for the information you need, how you deal when something in your app isn’t working and you have no idea how to solve it it’s about searching, asking for help, changing this line, or that other one to see what happens and eventually getting it right. That what most beginners fail to understand, it happened to me when I was starting out.',
+    
+              'If you’re a beginner I highly recommend you to take CS50 course on Edx and follow the Free Code Camp map, their all free and extremely helpful if you’re starting, and don’t give up!'
+            ]
+            
+           
         },
         {
-            heading: 'second sub title',
-            p: 'welcome to the jungle where people to crazy stuff to keep all the things in place  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, maxime corporis ea natus, adipisci maiores voluptatibus aut illum animi nesciunt aliquid non quo atque veniam nisi itaque. Necessitatibus fuga, nihil, atque ipsum optio vel reprehenderit eaque rem maiores exercitationem dolore, magnam et cupiditate quae totam sed earum obcaecati quia. Beatae possimus quia deserunt accusamus libero, veniam consequatur neque rem minus voluptates ratione quasi, saepe recusandae aliquam cum at, perferendis ipsum. Provident sint deserunt quos distinctio sequi alias, quo error, eaque quis mollitia nihil perferendis commodi voluptatibus nisi quod porro consectetur. Earum doloremque cum assumenda ipsa hic accusantium sed quisquam eaque, laudantium dolorum deserunt explicabo qui aspernatur provident adipisci tempore voluptatum dolores similique molestiae pariatur repudiandae et alias. Animi, facere! Nostrum praesentium sunt consectetur molestiae nulla itaque fugit? Ipsa porro doloribus corporis iure, sequi explicabo hic. Adipisci quae voluptates nam ipsam vitae repudiandae dolore velit dolores delectus officia exercitationem est animi ad nulla eos nemo expedita tenetur error, odio doloremque enim atque aspernatur molestias. Ut eos minus quisquam ea iste sint provident harum, temporibus doloribus, repellendus unde molestiae deserunt consequuntur soluta veritatis. Eaque minus laborum deleniti veniam eos deserunt ullam repellendus est quis dolore temporibus ut tempora qui, tempore fugit libero?'
-        }
+          heading: '',
+          paragraph: [
+            ''
+          ],
+          image: ''
+          
+         
+      }
       ],
-      date: '10 March 2018 by Emerson'
+      date: '27 December 2017, by Emerson'
     };
 
     return (
@@ -41,11 +52,11 @@ class ContentBox extends Component {
       // <Router>
         <div className="ContentBox">
               <section className="Posts">
-                <p className="Title"><span>{post1.title}</span></p>
-                <p className="Content">{post1.body[0].heading}</p>
-                <p className="Content">{post1.body[0].p.substring(0,300)}</p>
+                <p className="Title"><span>{post.title}</span></p>
+                <p className="Content">{post.body[0].heading}</p>
+                <p className="Content">{post.body[1].paragraph[0].substring(0,300)}</p>
                 <Link to={'/id'}><button>read more</button></Link>
-                <p className="Date">{post1.date}</p>
+                <p className="Date">{post.date}</p>
               </section>
         </div>
       // </Router>

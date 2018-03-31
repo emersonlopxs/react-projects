@@ -6,44 +6,44 @@ import Gist from 'react-gist';
 // import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 const post = {
-  title: 'Create a new react component',
+  title: 'the day I fell in love with coding',
   body: [
     {
         heading: '',
         paragraph: [
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus officia dolorum asperiores minus consectetur aspernatur debitis, numquam quae, nisi maxime minima! Minus, dolorem! Qui, quam vitae maxime veritatis magni iure rem ab, nam sequi laborum ducimus perspiciatis, soluta reprehenderit tempore qui quis?.',
-          
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus officia dolorum asperiores minus consectetur aspernatur debitis, numquam quae, nisi maxiex, voluptatum laboriosam eveniet, sequi sed neque exercitationem repellat corporis dolorem iste nihil fugiat veniam fugit! Eos doloremque magni iure rem ab, nam sequi laborum ducimus perspiciatis, soluta reprehenderit tempore qui quis? !'
+          ''
+
         ],
-        image: 'http://images5.fanpop.com/image/photos/30900000/Wallpaper-random-30957495-1920-1080.jpg',
+        image: 'https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?utm_medium=medium&w=700&q=50&auto=format',
         code: '',
-        gistId: '35393fad72358dfe197e833a28579f34'
+        gistId: ''
     },
     {
-        heading: 'INSTALL THE DEPENDENCIES  ',
+        heading: '',
+        
+        image: '',
         paragraph: [
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus officia dolorum asperiores minus consectetur aspernatur debitis, numquam quae, nisi maxime minima! Minus, dolorem! Qui, quam vitae maxime veritatis facilis voluptatum corporis, aliquid itaque ducimus dolores expedita ibus! Numquam eum dicta illum amet minima quae animi dolorum soluta pariatur ducimus aspernatur ex, voluptatum laboriosam eveniet, sequi sed neque exercitationem repellat corporis dolorem iste nihil fugiat veniam fugit! Eos doloremque magni iure rem ab, nam sequi laborum ducimus perspiciatis, soluta reprehenderit tempore qui quis?',
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus officia dolorum asperiores minus consectetur aspernatur debitis, numquam quae, nisi maxime minima! Minus, dolorem! Qui, quam vitae maxime veritatis facilis voluptatum corporis, aliquid itaque ducimus dolores expedita sapiente at rem dolorum officiis eveniet quidem. Aut accusantium id perspiciatis enim blanditiis impedit illo a hic! Ex, necessitatibus! Numquam eum dicta illum amet minima quae animi dolorum soluta pariatur ducimus aspernatur ex, voluptatum laboriosam eveniet, sequi sed neque exercitationem repellat corporis dolorem iste nihil fugiat veniofficiis eveniet quidem. Aut accusantium id perspiciatis enim blanditiis impedit illo a hic! Ex, necessitatibus! Numquam eum dicta illum amet minima quae animi dolorum soluta pariatur ducimus aspernatur ex, voluptatum laboriosam eveniet, sequi sed neque exercitationem repellat corporis dolorem iste nihil fugiat veniam fugit! Eos doloremque magni iure rem ab, nam sequi laborum ducimus perspiciatis, soluta reprehenderit tempore qui quis?',
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus officia dolorum asperiores minus consectetur aspernatur debitis, numquam quae, nisi maxime minima! Minus, dolorem! Qui, quam vitae maxime veritatis facilis voluptatum corporis, aliquid itaque ducimus dolores expedita sapiente at rem dolorum officiis eveniet quidem. Aut accusantium id perspiciatis enim blanditiis impedit illo a hic! Ex, necessitatibus! Numquam eum dicta illum amet minima quae animi dolorum soluta pariatur ducimus aspernatur ex, voluptatum laboriosam eveniet, sequi sed neque exercitationem repellat corporis dolorem iste nihil fugiat veniam fugit! Eos doloremque magni iure rem ab, nam sequi laborum ducimus perspiciatis, soluta reprehenderit tempore qui quis?',
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus officia dolorum asperiores minus consectetur aspernatur debitis, numquam quae, nisi maxime minima! Minus, dolorem! Qui, quam vitae maxime veritatis facilis voluptatum corporis, aliquid itaque ducimus dolores expedita sapiente at rem dolorum officiis eveniet quidem. Aut accusantium id perspiciatis enim blanditiis impedit illo a hic! Ex, necessitatibus! Numquam eum dicta illum amet minima quae animi dolorum soluta pariatur ducimus aspernatur ex, voluptatum laboriosam eveniet, sequi sed neque exercitationem repellat corporis dolorem iste nihil fugiat veniam fugit! Eos doloremque magni iure rem ab, nam sequi laborum ducimus perspiciatis, soluta reprehenderit tempore qui quis?'
-        ],
-        image: ''
+          'I always liked to code. After about for six months of learning I had built quite a few apps like a weather app (cause who hasn’t?), random quote machine, budget app, todo list app and many static webpages and others. Working on projects was always cool to me, being able to make something is one o the reasons I always liked coding.',
+          'One day though, while working on the intermediate front end projects on Free Code Camp, specifically the Wikipedia Viewer, something different happened. While working on it it was just as fun as the others, struggling to figure out how to the this and that, but eventually making it work. Nothing new here.',
+          'When the project was completed and I was checking if all the features were working correctly I felt something different, being able to type anything on that input and receive and answer related to the topic made me feel like I could do anything, so for the rest of the day I was thinking about how amazing I was able to create such an app. That was when I really realized I could build anything I wanted.',
+          'Being a coder doesn’t mean you know everything in a language/framework, but it’s about how you look for the information you need, how you deal when something in your app isn’t working and you have no idea how to solve it it’s about searching, asking for help, changing this line, or that other one to see what happens and eventually getting it right. That what most beginners fail to understand, it happened to me when I was starting out.',
+
+          'If you’re a beginner I highly recommend you to take CS50 course on Edx and follow the Free Code Camp map, their all free and extremely helpful if you’re starting, and don’t give up!'
+        ]
         
        
     },
     {
-      heading: 'RUN THE APP  ',
+      heading: '',
       paragraph: [
-        'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus officia dolorum asperiores minus consectetur aspernatur debitis, numquam quae, nisi maxime minima! Minus, dolorem! Qui, quam vitae maxime veritatis facilis voluptatum corporis, aliquid itaque ducimus dolores expedita sapiente at rem dolorum officiis eveniet quidem. Aut accusantium id perspiciatis enim blanditiis impedit illo a hic! Ex, necessitatibus! Numquam eum dicta illum amet minima quae animi dolorum soluta pariatur ducimus aspernatur ex, voluptatum laboriosalorum officiis eveniet quidem. Aut accusantium id perspiciatis enim blanditiis impedit illo a hic! Ex, necessitatibus! Numquam eum dicta illum amet minima quae animi dolorum soluta pariatur ducimus aspernatur ex, voluptatum laboriosam eveniet, sequi sed neque exercitationem repellat corporis dolorem iste nihil fugiat veniam fugit! Eos doloremque magni iure rem ab, nam sequi laborum ducimus perspiciatis, soluta reprehenderit tempore qui quis?',
-        'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus officia dolorum asperiores minus consectetur aspernatur debitis, numquam quae, nisi maxime minima! Minus, dolorem! Qui, quam vitae maxime veritatis facilis voluptatum corporis, aliquid itaque ducimus dolores expedita sapiente at rem dolorum officiis eveniet quidem. Aut accusantium id perspiciatis enim blanditiis impedit illo a hic! Ex, necessitatibus! Numquam eum dicta illum amet minima quae animi dolorum soluta pariatur ducimus aspernatur ex, voluptatum laboriosam eveniet, sequi sed neque exercitationem repellat corporis dolorem iste nihil fugiat veniam fugit! Eos doloremque magni iure rem ab, nam sequi laborum ducimus perspiciatis, soluta reprehenderit tempore qui quis?',
-        'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus officia dolorum asperiores minus consectetur aspernatur debitis, numquam quae, nisi maxime minima! Minus, dolorem! Qui, quam vitae maxime veritatis facilis voluptatum corporis, aliquid itaque ducimus dolores expedita sapiente at rem dolorum officiis eveniet quidem. Aut accusantium id perspiciatis enim blanditiis impedit illo a hic! Ex, necessitatibus! Numquam eum dicta illum amet minima quae animi dolorum soluta pariatur ducimus aspernatur ex, voluptatum laboriosam eveniet, sequi sed neque exercitationem repellat corporis dolorem iste nihil fugiat veniam fugit! Eos doloremque magni iure rem ab, nam sequi laborum ducimus perspiciatis, soluta reprehenderit tempore qui quis?'
+        ''
       ],
       image: ''
       
      
   }
   ],
-  date: 'Emerson, 10 March 2018'
+  date: '27 December 2017, by Emerson'
 };
 
 // post.body.section.heading
@@ -68,14 +68,15 @@ class PostId extends Component {
                 {/* if data.image exists, render it */}
                 {data.image ? <img src={data.image} alt="randon pic" className='image-sub-header'/> : false}
                 
+                <p>{data.paragraph[0]}</p>
                 <p>{data.paragraph[1]}</p>
                 <p>{data.paragraph[2]}</p>
                 <p>{data.paragraph[3]}</p>
+                <p>{data.paragraph[4]}</p>
                 <p>{data.paragraph[5]}</p>
                 <p>{data.paragraph[6]}</p>
                 <p>{data.paragraph[7]}</p>
                 <p>{data.paragraph[8]}</p>
-                <p>{data.paragraph[9]}</p>
 
 
               </div>
