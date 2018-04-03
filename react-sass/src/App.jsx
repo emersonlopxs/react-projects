@@ -13,7 +13,7 @@ class App extends Component {
         <div className="App">
 
           <Navbar />
-          {/* create a component called Home to render here */}
+          {/* create a component called Home to render here  */}
             <Route exact={true} path='/' render={() => (
               <h1 className='h1-app'>Hello world!</h1>
             )}/>
