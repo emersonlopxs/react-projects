@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+
 import Person from './Person/Person';
 
 class App extends Component {
@@ -23,7 +24,25 @@ class App extends Component {
     ]})
    }
 
+   nameChangeHandler = (event) => {
+    console.log('was clicked');
+    
+    this.setState({persons: [
+      {name: "LOL", age: 28},
+      {name: event.target.value, age: 22},
+      {name: "Erica", age: 23}
+    ]})
+   }
+
   render() {
+    // inline style is perfect to style only one single component
+    const style = {
+      backgroudColor: 'white',
+      font: 'inherit',
+      border: '1px solid blue',
+      padding: '8px',
+      curson: 'pointer'
+    };
     return (
       <div className="App">
 
@@ -35,6 +54,8 @@ class App extends Component {
        />
 
        <button 
+      //  refiring to the style constant
+        style={style}
         onClick={this.switchNamehandler}>
           Switch Name
         </button>
@@ -44,6 +65,7 @@ class App extends Component {
         age={this.state.persons[1].age}
         // passing a method to another component
         click={this.switchNamehandler}
+        changed={this.nameChangeHandler}
        />
        <Person 
         name={this.state.persons[2].name} 
