@@ -14,13 +14,12 @@ class App extends Component {
     this.setState({
       username: event.target.value
     })
-    
   }
 
   render() {
     return (
       <div className="App">
-       <Input 
+       <Input
         username={this.state.username}
         change={this.changeInputHandler}
        />
