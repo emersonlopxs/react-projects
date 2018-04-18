@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.picture {
+  max-width: 200px;
+  color: red;
+  border: 1px solid black;
+}
+
+.Image {
+  display: flex;
+  /* max-width: 400px; */
+  margin: auto;
+  width: auto;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 200px;
+}
