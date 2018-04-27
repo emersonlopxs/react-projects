@@ -3,7 +3,6 @@ import React from 'react';
 
 // Stateless component
 // Simplest react component
-// 
 const person = (props) => {
   return (
     <div className='Person'>
@@ -19,5 +18,5 @@ const person = (props) => {
 
 export default person;
 
-// ousar ou repetir? 
+// ousar ou repetir
 
