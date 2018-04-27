@@ -8,7 +8,6 @@ class App extends Component {
     isLoading: true
   }
 
-
   fetchData() {
     fetch('https://randomuser.me/api?results=100')
     .then(response => response.json())
@@ -19,7 +18,8 @@ class App extends Component {
         name: `${user.name.first} ${user.name.last}`,
         username: `${user.login.username}`,
         location: `${user.location.city}`,
-        picture: `${user.picture.medium}`
+        picture: `${user.picture.medium}`,
+        gender: `${user.gender}`
       }
     )))
     .then(contacts => this.setState({
@@ -37,12 +37,21 @@ class App extends Component {
   render() {
 
     const { contacts } = this.state;
+    const styleSpanMale = {
+      color: 'blue',
+      fontWeight: '700'
+    }
+    const styleSpanFemale = {
+      color: 'pink',
+      fontWeight: '700'
+    }
+
+
     // const contactcs = this.state.contacts;
     
     return (
       <div className="App">
         {
-          
           // contacts.map(contact => {
           //   return (
           //     <Person 
@@ -56,9 +65,23 @@ class App extends Component {
 
           contacts.length > 0 ? contacts.map(contact => {
             return (
-              <div key={contact.username}>
-                <h1>{contact.name}</h1>
+              <div className='person' key={contact.username}>
+                <h1 style={ 
+                  contact.gender === 'male' ? 
+                    styleSpanMale 
+                    : 
+                    styleSpanFemale}>{contact.name}</h1>
                 <p>{contact.location}</p>
+
+                <p style={ 
+                  contact.gender === 'male' ? 
+                    styleSpanMale 
+                    : 
+                    styleSpanFemale} >
+                  {contact.gender}
+                </p>
+
+
                 <img src={contact.picture} alt="someone fun"/>
               </div>
             )
