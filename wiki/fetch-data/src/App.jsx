@@ -37,11 +37,11 @@ class App extends Component {
   render() {
 
     const { contacts } = this.state;
-    const styleSpanMale = {
+    const styleMale = {
       color: 'blue',
       fontWeight: '700'
     }
-    const styleSpanFemale = {
+    const styleFemale = {
       color: 'pink',
       fontWeight: '700'
     }
@@ -68,16 +68,16 @@ class App extends Component {
               <div className='person' key={contact.username}>
                 <h1 style={ 
                   contact.gender === 'male' ? 
-                    styleSpanMale 
+                    styleMale 
                     : 
-                    styleSpanFemale}>{contact.name}</h1>
+                    styleFemale}>{contact.name}</h1>
                 <p>{contact.location}</p>
 
                 <p style={ 
                   contact.gender === 'male' ? 
-                    styleSpanMale 
+                    styleMale 
                     : 
-                    styleSpanFemale} >
+                    styleFemale} >
                   {contact.gender}
                 </p>
 
