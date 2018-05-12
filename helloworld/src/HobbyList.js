@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class HobbyList extends Component {
   render() {
-    const hobbies = ['boo', 'bar', 'arg'];
+    const hobbies = ['eat', 'beer', 'food'];
     const liStyle = {
                      fontSize: '1.5rem',
                      color: 'red'
