@@ -3,3 +3,6 @@ planning a react app
 2 - application state (data)
 3 - components vs containers
 
+set up the project 
+
+1 - npm run eject`

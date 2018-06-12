@@ -12,6 +12,8 @@ const TypesOfFruit = () => {
   );
 };
 
+//this is just a nano file edit
+
 const Fruits = () => {
   return (
     <div>
