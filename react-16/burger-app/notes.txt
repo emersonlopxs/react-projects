@@ -1,0 +1,5 @@
+planning a react app
+1 - component tree / structure
+2 - application state (data)
+3 - components vs containers
+
