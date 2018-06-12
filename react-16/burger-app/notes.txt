@@ -5,4 +5,28 @@ planning a react app
 
 set up the project 
 
-1 - npm run eject`
+1 - npm run eject > config > webpack.config.dev & prod > in: 
+  test: /\.css$/,
+            use: [
+              require.resolve('style-loader'),
+              {
+                loader: require.resolve('css-loader'),
+                options: {
+                  importLoaders: 1,
+                },
+              },
+  add on options:
+    modules: true,
+    localIdentName: '[name]__[local]__[hash:base:64:5]' 
+  
+  > test: /\.css$/,
+            use: [
+              require.resolve('style-loader'),
+              {
+                loader: require.resolve('css-loader'),
+                options: {
+                  importLoaders: 1,
+                  modules: true,
+                  localIdentName: '[name]__[local]__[hash:base:64:5]' 
+                },
+              },
